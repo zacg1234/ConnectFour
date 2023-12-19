@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<?import GameBoard?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" fx:id = "hbox" styleClass="HBox" fx:controller = "playScreen">
+
+
+        <VBox fx:id = "vbox" spacing="20">
+                <GameBoard>
+
+                </GameBoard>
+
+        </VBox>
+
+
+        <TextField fx:id ="yourTurn"/>
+
+
+
+</HBox>
+
